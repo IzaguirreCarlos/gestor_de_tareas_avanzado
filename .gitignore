@@ -1,6 +1,113 @@
 # Entornos virtuales
-venv/
-venv1/
-.env/
+# ============================
+# macOS
+# ============================
+.DS_Store
+AppleDouble
+LSOverride
+Icon
+_*
+Spotlight-V100
+Trashes
+AppleDB
+AppleDesktop
+Network Trash Folder
+Temporary Items
+apdisk
+
+# ============================
+# Python
+# ============================
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+venv1/
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs de instalación
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tests / coverage
+htmlcov/
+tox/
+coverage
+cache
+nosetests.xml
+coverage.xml
+
+# Traducciones
+*.mo
+*.pot
+
+# Documentación Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# ============================
+# Django
+# ============================
+*.log
+local_settings.py
+
+# Base de datos SQLite
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3-wal
+db.sqlite3-shm
+
+# ============================
+# React / Node.js
+# ============================
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Build de React
+build/
+dist/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# ============================
+# VSCode
+# ============================
+.vscode/
+
+# ============================
+# Otros
+# ============================
+*.swp
+*.swo
