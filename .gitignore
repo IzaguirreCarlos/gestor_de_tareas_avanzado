@@ -23,10 +23,7 @@ __pycache__/
 *.so
 
 # Entornos virtuales
-env/
-venv/
-.venv/
-venv1/
+
 
 # Distribución / empaquetado
 build/
@@ -76,7 +73,7 @@ target/
 local_settings.py
 
 # Base de datos SQLite
-db.sqlite3
+
 db.sqlite3-journal
 db.sqlite3-wal
 db.sqlite3-shm
