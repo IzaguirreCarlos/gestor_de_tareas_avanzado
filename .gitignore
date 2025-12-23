@@ -69,6 +69,9 @@ target/
 # ============================
 # Django
 # ============================
+db.sqlite3
+*.sqlite3
+.env
 *.log
 local_settings.py
 
